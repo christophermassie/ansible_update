@@ -1,0 +1,60 @@
+STATUS: OK
+
+[2019-02-11 14:46:03.161] INFO  - ========================================================
+[2019-02-11 14:46:03.162] INFO  - = Post-update status for centos
+[2019-02-11 14:46:03.163] INFO  - ========================================================
+[2019-02-11 14:46:03.164] INFO  - Running Kernel: 
+[2019-02-11 14:46:03.165] INFO  - 3.10.0-957.1.3.el7.x86_64
+[2019-02-11 14:46:03.166] INFO  - System Uptime: 
+[2019-02-11 14:46:03.169] INFO  -  14:46:03 up 7 days, 18:00,  4 users,  load average: 0.25, 0.27, 0.30
+[2019-02-11 14:46:03.170] INFO  - 
+[2019-02-11 14:46:03.171] INFO  - ========================================================
+[2019-02-11 14:46:03.172] INFO  - = Update history:
+[2019-02-11 14:46:03.173] INFO  - ========================================================
+
+========== new errata ===========
+
+* base: mirror.cs.uwp.edu
+* epel: mirror.steadfastnet.com
+* extras: mirror.jaleco.com
+FEDORA-EPEL-2014-4632       enhancement    qt5-qtbase-5.4.0-2.el7.x86_64
+FEDORA-EPEL-2014-4632       enhancement    qt5-qtbase-gui-5.4.0-2.el7.x86_64
+FEDORA-EPEL-2015-7076       newpackage     libindicator-12.10.1-5.el7.x86_64
+FEDORA-EPEL-2015-d6bac7c219 enhancement    http-parser-2.0-5.20121128gitcd01361.el7.x86_64
+FEDORA-EPEL-2016-03fb3c1531 Moderate/Sec.  libappindicator-12.10.0-11.el7.x86_64
+FEDORA-EPEL-2016-0b0aa4bb12 enhancement    python2-jmespath-0.9.0-1.el7.noarch
+FEDORA-EPEL-2016-6d68d3365c bugfix         python2-futures-3.0.5-1.el7.noarch
+FEDORA-EPEL-2017-04f51458d8 bugfix         sshpass-1.06-1.el7.x86_64
+FEDORA-EPEL-2017-1ee32a5ffa Low/Sec.       libtomcrypt-1.17-25.el7.x86_64
+FEDORA-EPEL-2017-1ee32a5ffa Low/Sec.       libtommath-0.42.0-5.el7.x86_64
+FEDORA-EPEL-2017-3ad252c475 newpackage     libargon2-20161029-2.el7.x86_64
+FEDORA-EPEL-2017-59c79d3a8a None/Sec.      python-httplib2-0.9.2-0.1.el7.noarch
+FEDORA-EPEL-2017-651343c9eb enhancement    ntfs-3g-2:2017.3.23-1.el7.x86_64
+FEDORA-EPEL-2017-6667e7ab29 bugfix         epel-release-7-11.noarch
+FEDORA-EPEL-2017-8cb1dcd776 Important/Sec. python2-crypto-2.6.1-13.el7.x86_64
+FEDORA-EPEL-2017-9f88067c22 None/Sec.      mpg123-libs-1.25.6-1.el7.x86_64
+FEDORA-EPEL-2017-bb8cabde49 enhancement    libdbusmenu-16.04.0-2.el7.x86_64
+FEDORA-EPEL-2017-bb8cabde49 enhancement    libdbusmenu-gtk2-16.04.0-2.el7.x86_64
+FEDORA-EPEL-2018-0e73364530 Critical/Sec.  python-paramiko-2.1.1-0.9.el7.noarch
+FEDORA-EPEL-2018-2363152420 enhancement    libva-1.8.3-0.1.el7.x86_64
+FEDORA-EPEL-2018-2363152420 enhancement    libva-devel-1.8.3-0.1.el7.x86_64
+FEDORA-EPEL-2018-30bad0f99c bugfix         python34-3.4.8-2.el7.x86_64
+FEDORA-EPEL-2018-30bad0f99c bugfix         python34-libs-3.4.8-2.el7.x86_64
+FEDORA-EPEL-2018-6b0fdd8b40 Low/Sec.       libvncserver-0.9.9-0.12.el7.x86_64
+FEDORA-EPEL-2018-6f182ddbf7 None/Sec.      python34-3.4.9-1.el7.x86_64
+FEDORA-EPEL-2018-6f182ddbf7 None/Sec.      python34-libs-3.4.9-1.el7.x86_64
+FEDORA-EPEL-2018-87d4d9304b newpackage     libdnet-1.12-0.13.1.el7.x86_64
+FEDORA-EPEL-2018-8f414877c8 bugfix         ntfs-3g-2:2017.3.23-6.el7.x86_64
+FEDORA-EPEL-2018-947a26a22d newpackage     python2-subprocess32-3.2.6-12.el7.x86_64
+FEDORA-EPEL-2018-bfb0d3533b bugfix         libsmbios-2.3.3-7.el7.x86_64
+* ius: muug.ca
+* remi-safe: mirror.team-cymru.com
+* updates: mirrors.usinternet.com
+
+========== last update history ===========
+
+Loaded plugins: fastestmirror, langpacks
+[2019-02-11 14:46:25.321] INFO  - ========================================================
+[2019-02-11 14:46:25.322] INFO  - = Environment-specific starts and checks
+[2019-02-11 14:46:25.323] INFO  - ========================================================
+[2019-02-11 14:46:25.327] INFO  - PPM has started successfully

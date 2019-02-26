@@ -36,26 +36,11 @@ log_info "========================================================"
 log_info "= Pre-update status for $HOSTNAME"
 log_info "========================================================"
 
-# Stop PPM
-(su - ppmadmin -c 'cd /home/ppmadmin/eppm_staging/bin && /home/ppmadmin/eppm_staging/bin/kStop.sh -now -user admin -password admin -   name eppm_stagingu1')
+# Stop Feedzai Processes
 
-result=$(ps -ef | grep -i DNAME | grep -v grep | wc -l)
-count=0
+# Verify that Feezai Processes have been stopped 
 
-# if DNAME process is still running, PPM has not stopped.  
-while [ "$result" != 0 ] && [ $count -lt 9 ]; do
-    sleep 20
-    result=$(ps -ef | grep -i DNAME | grep -v grep | wc -l)
-    count=$((count + 1))
-done
-
-# if PPM hasn't stopped by now, manual intervention/review will be necessary.
-if [ "$result" != 0 ] && [ $count -ge 9 ]; then
-    log_error "PPM has NOT stopped"
-    errorCheck=1
-else
-    log_info "PPM has stopped successfully"
-fi
+# if Processes haven't stopped we need to have manual intervention
 
 # Final status of healthchecks
 if [ ${errorCheck} != 0 ]; then
